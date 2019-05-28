@@ -1,0 +1,250 @@
+.page_longue{
+	height: 200vw;
+}
+
+.poster {
+	width: 100%;
+	margin-top: 10px;
+}
+
+h3 {
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.banner {
+	height: 70vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: white;
+}
+
+.banner h2{
+	text-align: center;
+}
+
+.banner-haut{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: calc(70vh - 150px);
+}
+
+.logo-banner {
+	width: 200px;
+}
+
+.banner-presentation {
+	height: 150px;
+	background-color: rgba(0,0,0,0.5);
+	display: flex;
+	align-items: center;
+}
+
+.titre-banner {
+	color: white;
+	position: relative;
+	left: 10%;
+}
+
+.toolsbar{
+	width: 300px;
+	height: 100vw;
+	padding: 20px;
+	background-color: #FF9938;
+	color: black;
+	border-left: 2px solid black;
+}
+
+.toolsbar li{
+	list-style-type: circle;
+}
+
+.title_toolsbar{
+	text-align: center;
+}
+
+.title_toolsbar i{
+	font-size: 50pt;
+	color: rgb(79,115,134);
+}
+
+.toolsbar_section{
+	padding-bottom: 20px;
+}
+
+.cj-navbar {
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(133,180,206);
+	align-items: center;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	border-bottom: 1px solid black; 
+}
+
+
+.contact-flex {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+/*-----------------------------------*/
+
+/*.wrapper2 {
+	border: 1px dashed black;
+}*/
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+/*.poster {
+	width: 100%;
+}*/
+
+.cj-navbar img {
+	height: 80px;
+
+}
+
+/*.cj-navbar {
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(133,180,206);
+	align-items: center;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+}*/
+
+a:hover {
+	color: #B05D0D;
+	text-decoration: none;
+}
+
+.text-menu {
+	color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+.intitule {
+	width: 100%;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+/*.banner {
+	height: 50vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center; 	
+}
+.logo-banner {
+	width: 200px;
+}*/
+
+.banner2 {
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/*.titre-banner {
+	color: white;
+	position: relative;
+	left: 10%;
+}*/
+
+.picture {
+	width: 200px;
+	padding: 20px;
+}
+
+li {
+	list-style: none;
+}
+
+/*h3 {
+	color: black;
+	text-align: center;
+}
+*/
+/*.banner-presentation {
+	height: 150px;
+	background-color: rgb(79,115,134);
+	display: flex;
+	align-items: center;
+}*/
+
+.icone-banner {
+  font-size: 50px;
+}
+
+#portrait-jo {
+
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+#portrait-clo {
+	display: flex;
+	align-items: center;
+}
+
+span {
+	color: grey;
+}
+/*.toolsbar{
+	width: 300px;
+}*/
+.content{
+	width: 100%;
+	margin-top: 100px;
+}
+
+.text-presentation {
+	padding: 20px;
+	text-align: justify;
+}
+
+.wrapper-posters {
+	padding: 30px;
+}
+
+/*.contact-flex {
+	display: flex;
+	justify-content: space-between;
+}*/
+
+.contact-map{
+	text-align: justify;
+	width: 400px;
+	padding-left: 20px;
+	height : 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-map p{
+	padding-top: 10px;
+}
+
+.contact-form{
+	border: 1px solid black;
+	width: 100%;
+}
